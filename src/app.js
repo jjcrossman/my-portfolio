@@ -1,5 +1,3 @@
-
-
 angular.module( "CrossmanPortfolio", [ "ui.router" ] )
 
 .config( function ( $stateProvider, $urlRouterProvider ) {
@@ -9,7 +7,7 @@ angular.module( "CrossmanPortfolio", [ "ui.router" ] )
   $stateProvider
     .state( "home", {
       url: "/"
-      , templateUrl: "./src/home-tmpl.html"
+      , templateUrl: "./src/views/templates/home-tmpl.html"
       , controller: "homeCtrl"
     } );
     // .state( "about", {
