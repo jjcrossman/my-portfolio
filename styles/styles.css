@@ -45,11 +45,12 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: "Titillium Web", sans-serif; }
-
-body {
+  font-family: "Titillium Web", sans-serif;
   background-color: #ffffff;
   color: #000000; }
+
+h1 {
+  font-size: 24px; }
 
 .nav-wrapper {
   display: flex;
@@ -60,43 +61,96 @@ body {
   width: 100%;
   border-bottom: 1px solid #d7d7d7; }
 
-.logo-wrapper {
+.nav-logo-wrapper {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   height: 100%;
   width: 20%; }
-  .logo-wrapper h1 {
+  .nav-logo-wrapper h1 {
     font-size: 36px; }
-  .logo-wrapper a {
+  .nav-logo-wrapper a {
     text-decoration: none;
     color: #db7f30; }
-  .logo-wrapper a:hover {
+  .nav-logo-wrapper a:hover {
     color: #ff9438; }
 
-.about-wrapper {
+.nav-profile-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100%;
   width: 10%;
   margin-left: 30%; }
-  .about-wrapper a {
+  .nav-profile-wrapper a {
     text-decoration: none;
     color: #000000; }
-  .about-wrapper a:hover {
+  .nav-profile-wrapper a:hover {
     color: #db7f30; }
 
-.projects-wrapper {
+.nav-skills-wrapper {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 100%;
   width: 10%; }
-  .projects-wrapper a {
+  .nav-skills-wrapper a {
     text-decoration: none;
     color: #000000; }
-  .projects-wrapper a:hover {
+  .nav-skills-wrapper a:hover {
     color: #db7f30; }
+
+.nav-projects-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  width: 10%; }
+  .nav-projects-wrapper a {
+    text-decoration: none;
+    color: #000000; }
+  .nav-projects-wrapper a:hover {
+    color: #db7f30; }
+
+.main-wrapper {
+  width: 90%;
+  font-size: 0;
+  margin: 20px auto; }
+
+.profile-wrapper {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  margin: 0 auto; }
+
+.profile-bio-wrapper {
+  text-align: right;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 49%;
+  background-color: #2e282a;
+  z-index: 1; }
+
+.portrait-wrapper {
+  display: inline-block;
+  position: relative;
+  height: 100%;
+  width: 49%;
+  background-color: #EE6352;
+  z-index: 2; }
+
+.portrait {
+  right: 20%;
+  zoom: 20%;
+  background-position: -2000px -1000px;
+  position: absolute;
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  height: 100%;
+  width: 60%;
+  background-image: url(../images/me_compressed.jpg);
+  background-repeat: no-repeat;
+  z-index: 3; }
 
 /*# sourceMappingURL=styles.css.map */

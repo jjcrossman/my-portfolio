@@ -1,9 +1,9 @@
 angular.module( "CrossmanPortfolio" )
 
-.directive( "navigation", function() {
+.directive( "skills", function() {
 
   return {
-    templateUrl: "./src/components/Nav/nav-tmpl.html"
+    templateUrl: "./src/component/Skills/skills-tmpl.html"
     , restrict: "E"
     , scope: {
 
@@ -12,7 +12,7 @@ angular.module( "CrossmanPortfolio" )
 
 
     }
-    , controller: "navCtrl"
+    , controller: "skillsCtrl"
   };
 
 } );
