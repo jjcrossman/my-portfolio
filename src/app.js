@@ -10,10 +10,5 @@ angular.module( "CrossmanPortfolio", [ "ui.router" ] )
       , templateUrl: "./src/views/templates/home-tmpl.html"
       , controller: "homeCtrl"
     } );
-    // .state( "about", {
-    //   url: "/about"
-    //   , template: aboutTmpl
-    //   , controller: "aboutCtrl"
-    // } );
 
 } );
